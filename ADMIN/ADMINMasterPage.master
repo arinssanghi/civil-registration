@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ADMINMasterPage.master.cs" Inherits="ADMIN_ADMINMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            border: 1px solid #00FF00;
+        }
+        .style2
+        {
+            height: 81px;
+        }
+        .style3
+        {
+            color: #FF00FF;
+            font-family: "Times New Roman", Times, serif;
+            font-size: x-large;
+            text-transform: uppercase;
+        }
+        .style4
+        {
+            width: 100%;
+        }
+        .style5
+        {
+            width: 199px;
+        }
+        .style7
+        {
+            width: 225px;
+        }
+        .style8
+        {
+            width: 137px;
+        }
+        .style9
+        {
+            width: 198px;
+        }
+        .style10
+        {
+            font-family: "Courier New", Courier, monospace;
+            font-size: xx-large;
+            color: #0000FF;
+            text-transform: uppercase;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" cellpadding="0" cellspacing="0" class="style1">
+            <tr>
+                <td class="style2" style="background-color: #99FF66">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="style3">&nbsp;Civil REgistry&nbsp;</span>&nbsp;</td>
+            </tr>
+        </table>
+        <table align="center" cellpadding="0" cellspacing="0" class="style4">
+            <tr>
+                <td align="center">
+                    <asp:HyperLink ID="HyperLink6" runat="server" 
+                        NavigateUrl="~/ADMIN/adminhome.aspx">HOME</asp:HyperLink>
+                </td>
+                <td align="center" class="style5">
+                    <asp:HyperLink ID="HyperLink2" runat="server" 
+                        NavigateUrl="~/ADMIN/gstbkgridviewaspx.aspx">GUESTBOOK</asp:HyperLink>
+                </td>
+                <td align="center" class="style9">
+                    <asp:HyperLink ID="HyperLink1" runat="server" 
+                        NavigateUrl="~/ADMIN/opinionpoll1.aspx">OPINIONPOLL</asp:HyperLink>
+                </td>
+                <td align="center" class="style7">
+                    <asp:HyperLink ID="HyperLink3" runat="server" 
+                        NavigateUrl="~/ADMIN/SanctionandRejectForms.aspx">SANTION/REJECT</asp:HyperLink>
+                </td>
+                <td align="center" class="style8">
+                    <asp:HyperLink ID="HyperLink4" runat="server" 
+                        NavigateUrl="~/ADMIN/ViewProfile.aspx">VIEW PROFILES</asp:HyperLink>
+                </td>
+                <td align="center">
+                    <asp:HyperLink ID="HyperLink5" runat="server" 
+                        NavigateUrl="~/users/loginform.aspx">LOGOUT</asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            &nbsp;<p  class="style10">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
